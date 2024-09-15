@@ -1,0 +1,16 @@
+刀客源码网 亲测环境
+Nginx + MySQL5.6 + PHP5.6
+
+请按照以下方法安装程序
+---------------------BEGIN---------------------
+1、首先把根目录的dkewl.sql导入到数据库
+
+2、打开application\config\database.php文件，找到数据库配置字段
+如下：
+$db['default']['hostname'] = 'localhost';  //一般默认即可
+$db['default']['username'] = 'www_dkewl_com';   //数据库用户名
+$db['default']['password'] = 'www_dkewl_com';  //数据库密码
+$db['default']['database'] = 'www_dkewl_com';  //数据库名称
+把其中“www_dkewl_com”字段替换成你自己的数据库信息
+
+3、访问您的网址  账号为 admin  密码为 dkewl.com
